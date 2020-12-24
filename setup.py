@@ -19,7 +19,7 @@ setup(
     author="test",
     author_email="test@gmail.com",
     packages=['', 'resource'],
-    package_data={'resource': ['*.json', '*.pkl']},
+    package_data={'resource': ['*.json', '*.pkl', '*.txt']},
     include_package_data=True,
     platforms="any",
     install_requires=['regex>=2017',
